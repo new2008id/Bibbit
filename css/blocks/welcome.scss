@@ -1,0 +1,53 @@
+// section variables
+
+$navyBlue: #112D6C;
+$gray: #5B6987;
+
+
+.welcome {
+    margin-top: 1rem;
+    background: url('../../img/section__welcome/sylvie-tittel-673974-unsplash.png') center center / cover no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.welcome__opacity {
+    opacity: 0;
+}
+
+.welcome__wrapper {
+    margin-top: 6rem;
+    width: 50%;
+    margin-left: 4rem;
+
+    @include phones {
+        margin-left: 0;
+        margin-top: 30px;
+        width: 100%;
+    }
+}
+
+.welcome__title {
+    color: $navyBlue;
+    font-size: 60px;
+    line-height: 66px;
+    font-weight: 800;
+
+    @include phones {
+        img {
+            width: 215px;
+            margin-top: 1rem;
+        }
+    }
+
+}
+
+.welcome__desc {
+    color: $gray;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.welcome__btn {
+    margin-top: 39px;
+}

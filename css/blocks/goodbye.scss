@@ -1,0 +1,66 @@
+// section variables
+
+$navyBlue: #112D6C;
+$gray: #5B6987;
+$lightGray: #F6FAFC;
+
+.goodbye {
+    margin-top: 0rem;   
+    background-color: $lightGray;
+}
+
+.goodbye__wrapper {
+    display: flex;
+    margin-top: 95px;
+    width: 100%;
+
+    @include phones {
+        flex-direction: column-reverse;
+        margin-top: 35px;
+    }
+}
+
+.goodbye__left {
+
+    @include phones {
+        margin-top: 3rem;
+        text-align: center;
+    }
+}
+
+.goodbye__left-img {
+    width: 338px;
+    height: 225px;
+    justify-content:center;
+}
+
+
+.goodbye__icon {
+    width: 52px;
+    height: 52px;
+    position: relative;
+    left: -1.5rem;
+}
+
+.goodbye__title {
+    color: $navyBlue;
+    font-size: 36px;
+    line-height: 44px;
+    margin: 2rem 0;
+    margin-bottom: 1rem;
+
+}
+
+.goodbye__right {
+    margin-left: 50px;
+
+    p {
+        font-size: 17px;
+        line-height: 30px;
+        color: $gray;
+    }
+
+    @include phones {
+        margin-left: 0;
+    }
+}

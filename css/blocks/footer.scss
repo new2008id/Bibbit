@@ -1,0 +1,28 @@
+// footer variables
+
+$gray: #5B6987;
+$lightWhite: #F6FAFC;
+
+.footer {
+    background-color: $lightWhite;
+    
+
+    @include phones {
+        margin-top: 5rem;
+    }
+}
+
+.footer__social-list {
+    margin: 44px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__about {
+    font-size: 14px;
+    line-height: 17px;
+    color: #112D6C;
+    text-align: center;
+    margin-bottom: 44px;
+    opacity: .4;
+}

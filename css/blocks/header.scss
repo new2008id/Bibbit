@@ -1,0 +1,83 @@
+$black: #112D6C;
+
+.header {
+    text-transform: uppercase;
+}
+
+.header__menu {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__left {
+    display: flex;
+}
+
+.header__icons {
+    display: flex;
+    margin: 1rem 0 0 60px;
+    color: red;
+
+    .header__icon {
+        margin-left: 40px;
+
+        span {
+            vertical-align: super;
+            color: $black;
+
+            @include phones {
+                color: $black;
+
+            }
+        }
+
+    }
+
+    @include phones {
+        display: none;
+    }
+}
+
+.header__right {
+
+    @include phones {
+        display: none;
+    }
+}
+
+.header__buttons {
+    display: flex;
+    margin-top: 1rem;
+
+    @include phones {
+        flex-direction: column;
+    
+    }
+
+}
+
+.header__btn {
+    margin-right: 18px;
+
+    @include phones {
+        margin-top: 4rem;
+
+    }
+}
+
+.header__btn-link {
+    border: 2px solid #D20060;
+    border-radius: 30px;
+    color: #D20060;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 25px 10px 25px;
+    text-transform: uppercase;
+
+
+    &:hover {
+        background-color: #D20060;
+        color: white;
+    }
+}

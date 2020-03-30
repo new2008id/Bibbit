@@ -1,0 +1,59 @@
+// section variables
+
+$navyBlue: #112D6C;
+$gray: #5B6987;
+
+// style
+
+.your-fix {
+    min-height: 25rem;
+    margin-top: 5rem;
+    background-image: url('../../img/yourfix/icon/noun_write_960307.png');
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 100%;
+
+    @include phones {
+        margin-top: 3rem;
+        min-height: 48rem;
+        background-size: 15rem;
+    }
+}
+
+.your-fix__icon {
+    width: 52px;
+    height: 52px;
+    position: relative;
+    left: -1.5rem;
+}
+
+.your-fix__title {
+    color: $navyBlue;
+    font-size: 36px;
+    line-height: 44px;
+    margin: 2rem 0;
+    margin-bottom: 1rem;
+}
+
+.your-fix__wrapper {
+    display: flex;
+    font-size: 17px;
+    line-height: 30px;
+    color: $gray;
+    
+
+    p {
+        margin-right: 60px;
+
+        @include phones {
+            margin-top: 1rem;
+            font-size: 18px;
+            margin-right: 0;
+        }
+    }
+
+    @include phones {
+        flex-direction: column;
+        width: 100%;
+    }
+}

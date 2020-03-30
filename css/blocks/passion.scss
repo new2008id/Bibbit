@@ -1,0 +1,67 @@
+// section variables
+
+$navyBlue: #112D6C;
+$gray: #5B6987;
+
+.passion {
+    min-height: 30rem;
+    margin-top: 6rem;
+
+    @include phones {
+        margin-top: 4rem;
+    }
+}
+
+.passion__wrapper {
+    display: flex;
+
+    @include phones {
+        flex-direction: column;
+        
+    }
+}
+
+.passion__left {
+    width: 40%;
+
+    p {
+        font-size: 17px;
+        line-height: 30px;
+        color: $gray;
+    }
+
+    @include phones {
+        width: 100%;
+    }
+}
+
+.passion__icon {
+    width: 52px;
+    height: 52px;
+    position: relative;
+    left: -1.5rem;
+}
+
+
+.passion__title {
+    color: $navyBlue;
+    font-size: 36px;
+    line-height: 44px;
+    margin: 2rem 0;
+    margin-bottom: 1rem;
+
+    @include phones {
+        font-size: 38px;
+    }
+
+}
+
+.passion__right {
+    margin-left: 100px;
+
+    @include phones {
+        margin-top: 3rem;
+        margin-left: 0;
+        text-align: center;
+    }
+}

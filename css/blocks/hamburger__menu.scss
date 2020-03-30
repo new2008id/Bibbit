@@ -1,0 +1,90 @@
+.hamburger__menu {
+    display: none;
+    position: relative;
+    bottom: 44.1rem;
+    left: 73rem;
+    cursor: pointer;
+    width: 25px;
+    height: 19px;
+    background: url('../../img/hamburger__menu/Shape.svg') no-repeat center;
+    background-size: contain;
+    transition: .3s all linear;
+    z-index: 9;
+
+    @include phones {
+        display: block;
+        bottom: 48.1rem;
+        left: 24rem;
+    }
+}
+
+.hamburger__menu.active {
+    background: url('../../img/hamburger__menu/Path.svg') no-repeat center;
+    background-size: contain;
+
+}
+
+.hamburger__menu-list {
+    display: none;
+
+    @include phones {
+        display: none;
+        position: relative;
+        bottom: 45rem;
+        z-index: 9999;
+    }
+}
+
+.hamburger__menu-list.block {
+    
+    @include phones {
+        display: block;
+    }
+}
+
+.nav__item {
+
+    @include phones {
+        color: #A1ABC1;
+        margin-left: 2.5rem;
+        margin-top: 1rem;
+        font-size: 14px;
+        line-height: 17px;
+        text-transform: uppercase;
+        display: block;
+    }
+}
+
+
+.nav__item-form {
+
+    @include phones {
+        margin: 0;
+        background: 0;
+        background-image: url('../../img/hamburger__menu/Search__Path.png');
+        background-repeat: no-repeat;
+        background-position: 4px;
+        outline: none;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        padding-left: 30px;
+        font-size: 16px;
+
+        color: #A1ABC1;
+    }
+
+}
+
+.hamburger__btn {
+
+    @include phones {
+        margin-top: 20rem;
+        text-align: center;
+    }
+    
+}
+
+.hamburger__btn-link {
+    padding: 10px 130px 10px 130px;
+}
