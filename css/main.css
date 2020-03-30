@@ -91,7 +91,7 @@ table {
   font-family: "Montserrat";
   font-weight: normal;
   font-style: normal;
-  src: url("../../fonts/Montserrat/montserrat.woff") format("woff"), url("../../fonts/Montserrat/montserrat.woff2") format("woff2");
+  src: url("../fonts/Montserrat/montserrat.woff") format("woff"), url("../fonts/Montserrat/montserrat.woff2") format("woff2");
 }
 .header {
   text-transform: uppercase;
@@ -171,7 +171,7 @@ table {
 
 .welcome {
   margin-top: 1rem;
-  background: url("../../img/section__welcome/sylvie-tittel-673974-unsplash.png") center center/cover no-repeat;
+  background: url("../img/section__welcome/sylvie-tittel-673974-unsplash.png") center center/cover no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -219,7 +219,7 @@ table {
 .your-fix {
   min-height: 25rem;
   margin-top: 5rem;
-  background-image: url("../../img/yourfix/icon/noun_write_960307.png");
+  background-image: url("../img/yourfix/icon/noun_write_960307.png");
   background-repeat: no-repeat;
   background-position-x: 100%;
   background-position-y: 100%;
@@ -425,7 +425,7 @@ table {
   cursor: pointer;
   width: 25px;
   height: 19px;
-  background: url("../../img/hamburger__menu/Shape.svg") no-repeat center;
+  background: url("../img/hamburger__menu/Shape.svg") no-repeat center;
   background-size: contain;
   transition: 0.3s all linear;
   z-index: 9;
@@ -439,7 +439,7 @@ table {
 }
 
 .hamburger__menu.active {
-  background: url("../../img/hamburger__menu/Path.svg") no-repeat center;
+  background: url("../img/hamburger__menu/Path.svg") no-repeat center;
   background-size: contain;
 }
 
@@ -477,7 +477,7 @@ table {
   .nav__item-form {
     margin: 0;
     background: 0;
-    background-image: url("../../img/hamburger__menu/Search__Path.png");
+    background-image: url("../img/hamburger__menu/Search__Path.png");
     background-repeat: no-repeat;
     background-position: 4px;
     outline: none;
